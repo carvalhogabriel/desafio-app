@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		01746B342082847600E1931B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B332082847600E1931B /* AppDelegate.swift */; };
-		01746B362082847600E1931B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B352082847600E1931B /* ViewController.swift */; };
-		01746B392082847600E1931B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01746B372082847600E1931B /* Main.storyboard */; };
+		01746B362082847600E1931B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B352082847600E1931B /* HomeViewController.swift */; };
+		01746B392082847600E1931B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01746B372082847600E1931B /* Home.storyboard */; };
 		01746B3C2082847600E1931B /* Webeleven_desafio_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01746B3A2082847600E1931B /* Webeleven_desafio_app.xcdatamodeld */; };
 		01746B3E2082847800E1931B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01746B3D2082847800E1931B /* Assets.xcassets */; };
 		01746B412082847800E1931B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01746B3F2082847800E1931B /* LaunchScreen.storyboard */; };
 		01746B4C2082847800E1931B /* Webeleven_desafio_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B4B2082847800E1931B /* Webeleven_desafio_appTests.swift */; };
 		01746B572082847800E1931B /* Webeleven_desafio_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B562082847800E1931B /* Webeleven_desafio_appUITests.swift */; };
+		01746B682082925500E1931B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B672082925500E1931B /* HomeCollectionViewCell.swift */; };
+		01746B6A208294B700E1931B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B69208294B700E1931B /* HomeTableViewCell.swift */; };
+		01746B6C2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B6B2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,8 @@
 /* Begin PBXFileReference section */
 		01746B302082847600E1931B /* Webeleven-desafio-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webeleven-desafio-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01746B332082847600E1931B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01746B352082847600E1931B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01746B382082847600E1931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01746B352082847600E1931B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		01746B382082847600E1931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		01746B3B2082847600E1931B /* Webeleven_desafio_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Webeleven_desafio_app.xcdatamodel; sourceTree = "<group>"; };
 		01746B3D2082847800E1931B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01746B402082847800E1931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		01746B522082847800E1931B /* Webeleven-desafio-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Webeleven-desafio-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01746B562082847800E1931B /* Webeleven_desafio_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webeleven_desafio_appUITests.swift; sourceTree = "<group>"; };
 		01746B582082847800E1931B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01746B672082925500E1931B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		01746B69208294B700E1931B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		01746B6B2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,9 @@
 		01746B64208285BE00E1931B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01746B66208291F100E1931B /* Home */,
+				01746B372082847600E1931B /* Home.storyboard */,
+				01746B3F2082847800E1931B /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,11 +146,19 @@
 		01746B65208285C500E1931B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				01746B352082847600E1931B /* ViewController.swift */,
-				01746B372082847600E1931B /* Main.storyboard */,
-				01746B3F2082847800E1931B /* LaunchScreen.storyboard */,
+				01746B352082847600E1931B /* HomeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		01746B66208291F100E1931B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				01746B672082925500E1931B /* HomeCollectionViewCell.swift */,
+				01746B69208294B700E1931B /* HomeTableViewCell.swift */,
+				01746B6B2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +267,7 @@
 			files = (
 				01746B412082847800E1931B /* LaunchScreen.storyboard in Resources */,
 				01746B3E2082847800E1931B /* Assets.xcassets in Resources */,
-				01746B392082847600E1931B /* Main.storyboard in Resources */,
+				01746B392082847600E1931B /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01746B362082847600E1931B /* ViewController.swift in Sources */,
+				01746B6C2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift in Sources */,
+				01746B362082847600E1931B /* HomeViewController.swift in Sources */,
+				01746B6A208294B700E1931B /* HomeTableViewCell.swift in Sources */,
 				01746B3C2082847600E1931B /* Webeleven_desafio_app.xcdatamodeld in Sources */,
 				01746B342082847600E1931B /* AppDelegate.swift in Sources */,
+				01746B682082925500E1931B /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +333,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		01746B372082847600E1931B /* Main.storyboard */ = {
+		01746B372082847600E1931B /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				01746B382082847600E1931B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		01746B3F2082847800E1931B /* LaunchScreen.storyboard */ = {
