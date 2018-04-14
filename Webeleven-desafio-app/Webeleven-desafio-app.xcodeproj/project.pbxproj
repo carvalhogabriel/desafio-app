@@ -99,11 +99,10 @@
 		01746B322082847600E1931B /* Webeleven-desafio-app */ = {
 			isa = PBXGroup;
 			children = (
+				01746B65208285C500E1931B /* Controller */,
+				01746B64208285BE00E1931B /* View */,
 				01746B332082847600E1931B /* AppDelegate.swift */,
-				01746B352082847600E1931B /* ViewController.swift */,
-				01746B372082847600E1931B /* Main.storyboard */,
 				01746B3D2082847800E1931B /* Assets.xcassets */,
-				01746B3F2082847800E1931B /* LaunchScreen.storyboard */,
 				01746B422082847800E1931B /* Info.plist */,
 				01746B3A2082847600E1931B /* Webeleven_desafio_app.xcdatamodeld */,
 			);
@@ -126,6 +125,23 @@
 				01746B582082847800E1931B /* Info.plist */,
 			);
 			path = "Webeleven-desafio-appUITests";
+			sourceTree = "<group>";
+		};
+		01746B64208285BE00E1931B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01746B65208285C500E1931B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01746B352082847600E1931B /* ViewController.swift */,
+				01746B372082847600E1931B /* Main.storyboard */,
+				01746B3F2082847800E1931B /* LaunchScreen.storyboard */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
