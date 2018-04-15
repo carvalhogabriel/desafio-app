@@ -18,6 +18,15 @@
 		01746B682082925500E1931B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B672082925500E1931B /* HomeCollectionViewCell.swift */; };
 		01746B6A208294B700E1931B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B69208294B700E1931B /* HomeTableViewCell.swift */; };
 		01746B6C2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B6B2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift */; };
+		01746B6F2082BA6300E1931B /* HomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B6E2082BA6300E1931B /* HomeApi.swift */; };
+		01746B722082BAD600E1931B /* DataRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B712082BAD600E1931B /* DataRequestDelegate.swift */; };
+		01746B742082BB2900E1931B /* ApiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B732082BB2900E1931B /* ApiUtils.swift */; };
+		01746B782082C66700E1931B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B772082C66700E1931B /* HomeScreen.swift */; };
+		01746B7C2082E30900E1931B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 01746B7B2082E30900E1931B /* README.md */; };
+		01B0E0CA2083A29A00FC19D2 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0E0C92083A29A00FC19D2 /* HomeDetailViewController.swift */; };
+		03009EF87A873BD298E323E1 /* Pods_Webeleven_desafio_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA886DEA6482F094A506923 /* Pods_Webeleven_desafio_app.framework */; };
+		92EDDD9AD0D12510A863397D /* Pods_Webeleven_desafio_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4CCC8E31FFB50E03AAA3EF /* Pods_Webeleven_desafio_appTests.framework */; };
+		BAF927D750D7651F40A79DA9 /* Pods_Webeleven_desafio_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB46762E8022D4208C03FC1 /* Pods_Webeleven_desafio_appUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,21 @@
 		01746B672082925500E1931B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		01746B69208294B700E1931B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		01746B6B2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		01746B6E2082BA6300E1931B /* HomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApi.swift; sourceTree = "<group>"; };
+		01746B712082BAD600E1931B /* DataRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestDelegate.swift; sourceTree = "<group>"; };
+		01746B732082BB2900E1931B /* ApiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUtils.swift; sourceTree = "<group>"; };
+		01746B772082C66700E1931B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		01746B7B2082E30900E1931B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		01B0E0C92083A29A00FC19D2 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		10F6023B58C35D509D9F26D0 /* Pods-Webeleven-desafio-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webeleven-desafio-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Webeleven-desafio-appUITests/Pods-Webeleven-desafio-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		581DA551B0448DE3097D0E42 /* Pods-Webeleven-desafio-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webeleven-desafio-appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Webeleven-desafio-appTests/Pods-Webeleven-desafio-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66243217C051807AFD7F0B18 /* Pods-Webeleven-desafio-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webeleven-desafio-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Webeleven-desafio-app/Pods-Webeleven-desafio-app.release.xcconfig"; sourceTree = "<group>"; };
+		83DA4E4702129692CF21FF3D /* Pods-Webeleven-desafio-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webeleven-desafio-appTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Webeleven-desafio-appTests/Pods-Webeleven-desafio-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DB46762E8022D4208C03FC1 /* Pods_Webeleven_desafio_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webeleven_desafio_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4CCC8E31FFB50E03AAA3EF /* Pods_Webeleven_desafio_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webeleven_desafio_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA886DEA6482F094A506923 /* Pods_Webeleven_desafio_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webeleven_desafio_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE804CE8DB65DBCC44176A78 /* Pods-Webeleven-desafio-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webeleven-desafio-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Webeleven-desafio-app/Pods-Webeleven-desafio-app.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FD8258631E668679773401 /* Pods-Webeleven-desafio-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webeleven-desafio-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Webeleven-desafio-appUITests/Pods-Webeleven-desafio-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03009EF87A873BD298E323E1 /* Pods_Webeleven_desafio_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EDDD9AD0D12510A863397D /* Pods_Webeleven_desafio_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF927D750D7651F40A79DA9 /* Pods_Webeleven_desafio_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +112,13 @@
 		01746B272082847600E1931B = {
 			isa = PBXGroup;
 			children = (
+				01746B7B2082E30900E1931B /* README.md */,
 				01746B322082847600E1931B /* Webeleven-desafio-app */,
 				01746B4A2082847800E1931B /* Webeleven-desafio-appTests */,
 				01746B552082847800E1931B /* Webeleven-desafio-appUITests */,
 				01746B312082847600E1931B /* Products */,
+				D6E8BC5C45B99E5A1BCF4A0D /* Pods */,
+				1C16C37D507827FD7C1EB5EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +135,7 @@
 		01746B322082847600E1931B /* Webeleven-desafio-app */ = {
 			isa = PBXGroup;
 			children = (
+				01746B6D2082BA4300E1931B /* Model */,
 				01746B65208285C500E1931B /* Controller */,
 				01746B64208285BE00E1931B /* View */,
 				01746B332082847600E1931B /* AppDelegate.swift */,
@@ -146,7 +177,7 @@
 		01746B65208285C500E1931B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				01746B352082847600E1931B /* HomeViewController.swift */,
+				01B0E0C72083A27900FC19D2 /* Home */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +192,65 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		01746B6D2082BA4300E1931B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01746B702082BA6B00E1931B /* API */,
+				01746B772082C66700E1931B /* HomeScreen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01746B702082BA6B00E1931B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				01746B6E2082BA6300E1931B /* HomeApi.swift */,
+				01746B712082BAD600E1931B /* DataRequestDelegate.swift */,
+				01746B732082BB2900E1931B /* ApiUtils.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		01B0E0C72083A27900FC19D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				01B0E0C82083A28900FC19D2 /* HomeDetail */,
+				01746B352082847600E1931B /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		01B0E0C82083A28900FC19D2 /* HomeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				01B0E0C92083A29A00FC19D2 /* HomeDetailViewController.swift */,
+			);
+			path = HomeDetail;
+			sourceTree = "<group>";
+		};
+		1C16C37D507827FD7C1EB5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAA886DEA6482F094A506923 /* Pods_Webeleven_desafio_app.framework */,
+				CF4CCC8E31FFB50E03AAA3EF /* Pods_Webeleven_desafio_appTests.framework */,
+				8DB46762E8022D4208C03FC1 /* Pods_Webeleven_desafio_appUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6E8BC5C45B99E5A1BCF4A0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE804CE8DB65DBCC44176A78 /* Pods-Webeleven-desafio-app.debug.xcconfig */,
+				66243217C051807AFD7F0B18 /* Pods-Webeleven-desafio-app.release.xcconfig */,
+				581DA551B0448DE3097D0E42 /* Pods-Webeleven-desafio-appTests.debug.xcconfig */,
+				83DA4E4702129692CF21FF3D /* Pods-Webeleven-desafio-appTests.release.xcconfig */,
+				F2FD8258631E668679773401 /* Pods-Webeleven-desafio-appUITests.debug.xcconfig */,
+				10F6023B58C35D509D9F26D0 /* Pods-Webeleven-desafio-appUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01746B5B2082847800E1931B /* Build configuration list for PBXNativeTarget "Webeleven-desafio-app" */;
 			buildPhases = (
+				D72B8EC00822B5D4B5884C43 /* [CP] Check Pods Manifest.lock */,
 				01746B2C2082847600E1931B /* Sources */,
 				01746B2D2082847600E1931B /* Frameworks */,
 				01746B2E2082847600E1931B /* Resources */,
+				E584D34E1075A2492A750AA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01746B5E2082847800E1931B /* Build configuration list for PBXNativeTarget "Webeleven-desafio-appTests" */;
 			buildPhases = (
+				CA9EF16444993748D595F971 /* [CP] Check Pods Manifest.lock */,
 				01746B432082847800E1931B /* Sources */,
 				01746B442082847800E1931B /* Frameworks */,
 				01746B452082847800E1931B /* Resources */,
@@ -203,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01746B612082847800E1931B /* Build configuration list for PBXNativeTarget "Webeleven-desafio-appUITests" */;
 			buildPhases = (
+				A3F01650BAA4A959BBA8089B /* [CP] Check Pods Manifest.lock */,
 				01746B4E2082847800E1931B /* Sources */,
 				01746B4F2082847800E1931B /* Frameworks */,
 				01746B502082847800E1931B /* Resources */,
@@ -267,6 +361,7 @@
 			files = (
 				01746B412082847800E1931B /* LaunchScreen.storyboard in Resources */,
 				01746B3E2082847800E1931B /* Assets.xcassets in Resources */,
+				01746B7C2082E30900E1931B /* README.md in Resources */,
 				01746B392082847600E1931B /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +382,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3F01650BAA4A959BBA8089B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webeleven-desafio-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9EF16444993748D595F971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webeleven-desafio-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72B8EC00822B5D4B5884C43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webeleven-desafio-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E584D34E1075A2492A750AA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Webeleven-desafio-app/Pods-Webeleven-desafio-app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/STXImageCache/STXImageCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STXImageCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Webeleven-desafio-app/Pods-Webeleven-desafio-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01746B2C2082847600E1931B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,10 +466,15 @@
 			files = (
 				01746B6C2082B2C300E1931B /* HeaderHomeCollectionViewCell.swift in Sources */,
 				01746B362082847600E1931B /* HomeViewController.swift in Sources */,
+				01B0E0CA2083A29A00FC19D2 /* HomeDetailViewController.swift in Sources */,
+				01746B722082BAD600E1931B /* DataRequestDelegate.swift in Sources */,
+				01746B742082BB2900E1931B /* ApiUtils.swift in Sources */,
 				01746B6A208294B700E1931B /* HomeTableViewCell.swift in Sources */,
 				01746B3C2082847600E1931B /* Webeleven_desafio_app.xcdatamodeld in Sources */,
+				01746B782082C66700E1931B /* HomeScreen.swift in Sources */,
 				01746B342082847600E1931B /* AppDelegate.swift in Sources */,
 				01746B682082925500E1931B /* HomeCollectionViewCell.swift in Sources */,
+				01746B6F2082BA6300E1931B /* HomeApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,15 +645,15 @@
 		};
 		01746B5C2082847800E1931B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE804CE8DB65DBCC44176A78 /* Pods-Webeleven-desafio-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKFCJ2D2M6;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = "Webeleven-desafio-app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "gabrielcarvalho.Webeleven-desafio-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -486,15 +663,14 @@
 		};
 		01746B5D2082847800E1931B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66243217C051807AFD7F0B18 /* Pods-Webeleven-desafio-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKFCJ2D2M6;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				INFOPLIST_FILE = "Webeleven-desafio-app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gabrielcarvalho.Webeleven-desafio-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -504,17 +680,14 @@
 		};
 		01746B5F2082847800E1931B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581DA551B0448DE3097D0E42 /* Pods-Webeleven-desafio-appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKFCJ2D2M6;
 				INFOPLIST_FILE = "Webeleven-desafio-appTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gabrielcarvalho.Webeleven-desafio-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,17 +698,14 @@
 		};
 		01746B602082847800E1931B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DA4E4702129692CF21FF3D /* Pods-Webeleven-desafio-appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKFCJ2D2M6;
 				INFOPLIST_FILE = "Webeleven-desafio-appTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gabrielcarvalho.Webeleven-desafio-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -546,16 +716,13 @@
 		};
 		01746B622082847800E1931B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FD8258631E668679773401 /* Pods-Webeleven-desafio-appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKFCJ2D2M6;
 				INFOPLIST_FILE = "Webeleven-desafio-appUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gabrielcarvalho.Webeleven-desafio-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -566,16 +733,13 @@
 		};
 		01746B632082847800E1931B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F6023B58C35D509D9F26D0 /* Pods-Webeleven-desafio-appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKFCJ2D2M6;
 				INFOPLIST_FILE = "Webeleven-desafio-appUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gabrielcarvalho.Webeleven-desafio-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
