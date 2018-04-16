@@ -1,0 +1,20 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - STXImageCache (1.0.2)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - STXImageCache
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DZNEmptyDataSet
+    - STXImageCache
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  STXImageCache: d41f98b0d35426f1dd94f5ae80f7437027da64d1
+
+PODFILE CHECKSUM: 7009435667b3a193c978dba25c20240d8990f67d
+
+COCOAPODS: 1.5.0

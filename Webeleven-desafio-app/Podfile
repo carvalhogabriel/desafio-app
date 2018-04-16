@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'Webeleven-desafio-app' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'STXImageCache'
+  pod 'DZNEmptyDataSet'
+
+  # Pods for Webeleven-desafio-app
+
+  target 'Webeleven-desafio-appTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Webeleven-desafio-appUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

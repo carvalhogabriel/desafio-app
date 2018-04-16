@@ -1,0 +1,6 @@
+framework module Pods_Webeleven_desafio_app {
+  umbrella header "Pods-Webeleven-desafio-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
